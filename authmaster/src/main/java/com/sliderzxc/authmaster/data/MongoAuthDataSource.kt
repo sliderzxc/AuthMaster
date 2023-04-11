@@ -13,6 +13,6 @@ class MongoAuthDataSource(database: CoroutineDatabase) : AuthDataSource {
     }
 
     override suspend fun getUserByMail(mail: String): UserMongoData? {
-        return users.findOne(UserMongoData::mail eq mail)
+        return users.findOne(UserMongoData::email eq mail)
     }
 }
