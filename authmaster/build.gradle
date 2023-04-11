@@ -41,4 +41,8 @@ dependencies {
     //MongoDB
     implementation 'org.litote.kmongo:kmongo:4.8.0'
     implementation 'org.litote.kmongo:kmongo-coroutine:4.8.0'
+    //JWT
+    implementation 'com.auth0:java-jwt:4.3.0'
+    //Codec
+    implementation 'commons-codec:commons-codec:1.15'
 }
